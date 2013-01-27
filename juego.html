@@ -1,27 +1,29 @@
 <!doctype html>
+<meta charset="utf-8">
+
 <html>
     <head>
         <title> juego </title>
         <style type="text/css">
             canvas{
-                border:solid;
-                height:100% ;
-                width: 100% ;
+                width:685px;
+                
                 
             }
-        </style
+            div{
+                float:right;
+            }
+        </style>
         
-    </heuad>
+    </head>
     <body>
         <canvas id='mycanvas'>
             Tu navegador no soporta canvas.
             <img src="1.gif" id="img" style="display:none;">
-            <script>
-                
-                
-            </script>
         </canvas>
+        <div id="imges"><img src="1.gif"></div>
+        <div id="edit">(se atiene a cambios)para moverse presione las flechas para ingresar a un lugar ya senalado coloquese encima de el y presione enter.para ver un objeto y la descripcion muevase y para salir de un lugar presione esc</div>
         <script type="text/javascript" src="library/jquery-1.8.3.min.js"></script>
-        <script type="text/javascript" src="juego.js"></script>
+        <script type="text/javascript" src="library/juego.js"></script>
     </body>
 </html>
